@@ -1,0 +1,9 @@
+# torch: install separately with the CUDA build matching your driver (tested here: torch 2.14 CPU)
+gym-pusht==0.1.6
+pymunk>=6.6,<7
+zarr>=2.16,<3
+numpy
+matplotlib
+imageio
+imageio-ffmpeg
+pytest

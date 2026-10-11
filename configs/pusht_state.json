@@ -1,0 +1,19 @@
+{
+  "obs_dim": 5,
+  "action_dim": 2,
+  "obs_horizon": 2,
+  "pred_horizon": 16,
+  "action_horizon": 8,
+  "num_diffusion_iters": 100,
+  "down_dims": [256, 512, 1024],
+  "diffusion_step_embed_dim": 256,
+  "kernel_size": 5,
+  "batch_size": 256,
+  "lr": 1e-4,
+  "weight_decay": 1e-6,
+  "lr_warmup_steps": 500,
+  "num_epochs": 4500,
+  "checkpoint_every": 50,
+  "eval_every": 50,
+  "eval_episodes_during_training": 10
+}

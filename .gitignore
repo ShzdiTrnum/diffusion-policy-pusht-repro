@@ -1,0 +1,8 @@
+data/
+runs/**/*.pt
+__pycache__/
+*.pt
+results/videos/*.mp4
+results/smoke*/
+results/smoke*.json
+.pytest_cache/

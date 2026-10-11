@@ -1,0 +1,17 @@
+10-11 13:22 waiting for seed2 training
+10-11 19:17 seed2 training done; evaluating seed2 on GPU1
+10-11 19:17 extension 1 (sampler steps) on GPU0
+10-11 19:40 extension 2 (dispersion vs failure) on GPU0
+10-11 19:50 waiting for all evaluations
+10-11 21:30 ALL DONE
+10-11 21:30 eval_seed0.log: max/avg over 10 ckpts: 0.863 / 0.854
+10-11 21:30 eval_seed1.log: max/avg over 10 ckpts: 0.923 / 0.909
+10-11 21:30 eval_seed2.log: max/avg over 10 ckpts: 0.846 / 0.835
+| Method | Push-T max | Push-T avg (last 10) | Source |
+|---|---|---|---|
+| DiffusionPolicy-C | 0.95 | 0.91 | paper, Table I |
+| DiffusionPolicy-T | 0.95 | 0.79 | paper, Table I |
+| IBC | 0.90 | 0.84 | paper, Table I |
+| BET | 0.79 | 0.70 | paper, Table I |
+| LSTM-GMM | 0.67 | 0.61 | paper, Table I |
+| **This repo (CNN, 5-D state obs)** | **0.88** | **0.87** | measured: 3 seed(s) x 10 ckpts x 50 inits |
