@@ -81,7 +81,7 @@ Typical (median) dispersion is higher in failed episodes, while dispersion **pea
 consistent with peaks reflecting multimodal choices (pushing the T from either side) rather than uncertainty.
 **Not yet established:** this is one checkpoint; failed episodes are longer than successful ones (possible confound);
 and the episode median is only known after the episode, so it is not yet a runtime monitor.
-`scripts/online_monitor.py` tests the signal using only replans seen so far; replication on seeds 1-2 is the next step.
+**Not yet run:** `scripts/online_monitor.py` (tests the signal using only replans seen so far) and replication on seeds 1-2.
 
 Figures in `results/figures/`: `training_curves.png`, `ablation_steps.png`, `uncertainty_vs_score.png`.
 
@@ -127,6 +127,8 @@ python scripts/baseline_hold.py
 ```
 
 ## Track A - official code (exact paper config)
+
+*Instructions only - the official code was not run for the results reported here.*
 
 ```bash
 git clone https://github.com/real-stanford/diffusion_policy && cd diffusion_policy
